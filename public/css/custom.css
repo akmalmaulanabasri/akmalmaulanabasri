@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+*{
+    /* font-family: 'Fira Sans', sans-serif; */
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.home .tagline{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px){
+    .home .tagline{
+        font-size: 1.8rem;
+    }
+}
+    
+.home .btn{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-right: 20px;
+    color: #CED0CE;
+}
+
+.home .learn{
+    border: 2px dashed #CED0CE;
+}
+
+.home .learn:hover{
+    border: 2px solid #CED0CE;
+    color: #CED0CE;
+    background-color: #333333;
+}
+
+.home .project{
+    border: 2px dashed #CED0CE;
+}
+
+.home .project:hover{
+    border: 2px solid #CED0CE;
+    color: #CED0CE;
+    background-color: #333333;
+}
+
+.tech-img{
+    height: 80px;
+    width: auto;
+    margin: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .tech-img{
+        height: 50px;
+    width: auto;
+    margin: 2px;
+    margin-bottom: 5px;
+    }
+}
+    
+.hover{
+    transition: all 0.05s ease-out;
+}
+
+.hover:hover{
+    margin-top: -10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    transition: all 0.2s ease-in;
+}
+
+.btn-more{
+    background-color: #333333;
+    color: #CED0CE;
+}
+
+body{
+    background-color: #191919;
+    color: #CED0CE;
+}
+
+nav{
+    background-color: #333333;
+}
+
+.card-title{
+    color: #333333;
+}
+
+.katabijak{
+    background-color: #333333;
+    color: #CED0CE;
+    padding: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.card-login{
+    background-color: #333333;
+
+}
+
+.mypic{
+    z-index: -100;
+}
+
+.dropdown-home{
+    background-color: #333333;
+    color: #333333;
+}
+
+.dropdown-home .dropdown-item{
+    background-color: #333333;
+    color: #333333;
+}
+
+.post-gambar{
+    /* height: 340px; */
+    width: auto;
+    object-fit: cover;
+}
