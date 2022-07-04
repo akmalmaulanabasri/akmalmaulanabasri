@@ -13,6 +13,8 @@
         rel="stylesheet">
     <link href="{{ asset('sbadmin') }}/css/sb-admin-2.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="{{ asset('trix') }}/trix.css">
+    <script src="{{ asset('trix') }}/trix.js"></script>
 </head>
 
 <body id="page-top">
@@ -29,11 +31,12 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="{{ route('dashboard') }}">
                     <i class="bi bi-house"></i>
                     <span>Dashboard</span></a>
             </li>
 
+            @if(Auth::user()->role == 'admin')
             <!-- Divider -->
             <hr class="sidebar-divider">
 
@@ -43,7 +46,6 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-            {{-- @if(Auth::user()->role == 'admin') --}}
             <li class="nav-item">
                 <a class="nav-link collapseds" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
@@ -58,7 +60,6 @@
                     </div>
                 </div>
             </li>
-            {{-- @endif --}}
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
@@ -69,8 +70,8 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Articles</h6>
-                        <a class="collapse-item" href="utilities-color.html">Daftar Artikel</a>
-                        <a class="collapse-item" href="utilities-border.html">Tambah Artikel</a>
+                        <a class="collapse-item" href="{{ route('artikel') }}">Daftar Artikel</a>
+                        <a class="collapse-item" href="{{ route('tambah-artikel') }}">Tambah Artikel</a>
                     </div>
                 </div>
             </li>
@@ -79,6 +80,7 @@
                     <i class="bi bi-people"></i>
                     <span>Daftar User</span></a>
             </li>
+            @endif
         </ul>
         <!-- End of Sidebar -->
 
@@ -167,12 +169,12 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Yakin Mau Logout?</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body">Klik Logout untuk keluar dari halaman ini.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
                     <a class="btn btn-primary" href="{{ route('logout') }}">Logout</a>

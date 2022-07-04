@@ -36,6 +36,10 @@ class PageController extends Controller
         return view('articles');
     }
 
+    public function articlesDetail($id){
+        return view('articles-detail', ['id' => $id]);
+    }
+
     public function about(){
         return view('about', ['kataBijak' => static::KataBijak()]);
     }

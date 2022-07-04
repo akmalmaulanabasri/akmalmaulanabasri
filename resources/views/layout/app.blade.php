@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Akmal Maulana</title>
-    <link rel="stylesheet" href="css/bs.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="{{ asset('css') }}/bs.css">
+    <link rel="stylesheet" href="{{ asset('css') }}/custom.css">
+    <link rel="stylesheet" href="{{ asset('trix') }}/trix.css">
+    <script src="{{ asset('trix') }}/trix.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/htmltypist.js/dist/typist.css">
     <script src="https://cdn.jsdelivr.net/npm/htmltypist.js/dist/typist.js"></script>
