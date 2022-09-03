@@ -15,8 +15,8 @@
                             <img src="{{ asset('storage') }}/{{ $item->gambar }}" alt="Gambar {{ $item->judul }}">
                         @endif
                         <div class="card-body">
-                            <h5 class="card-title font-weight-bold">{{ $item->judul }}</h5>
-                            <div class="card-text text-dark">{!! Str::words($item->artikel, 15) !!}</div></div>
+                            <h5 class="card-title font-weight-bold">{{ $item->judul }}  <a class="btn btn-dark">{{ $item->kategori }}</a></h5>
+                            <div class="card-text text-dark">{!! Str::words($item->artikel, 10) !!}</div></div>
                             <a href="{{ route('articles-detail', $item->slug) }}" class="btn btn-secondary mt-3">Read
                                 More</a>
                         </div>

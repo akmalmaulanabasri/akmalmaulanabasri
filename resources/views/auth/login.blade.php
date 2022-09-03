@@ -38,7 +38,6 @@
                             @enderror
                         <input type="submit" value="Login" class="btn btn-secondary mt-3">
                     </form>
-                    <small>Not Registered ? <a href="{{ route('register') }}">Register Here!</a></small>
                 </div>
             </div>
         </div>

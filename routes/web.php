@@ -28,8 +28,8 @@ Route::get('/about', [PageController::class, 'about']);
 
 Route::get('/login', [LoginContoller::class, 'index'])->name('login-page')->middleware('guest');
 Route::post('/login', [LoginContoller::class, 'login'])->name('login');
-Route::get('/register', [LoginContoller::class, 'register'])->name('register');
-Route::post('/register', [LoginContoller::class, 'store'])->name('add-account');
+// Route::get('/register', [LoginContoller::class, 'register'])->name('register');
+// Route::post('/register', [LoginContoller::class, 'store'])->name('add-account');
 Route::get('/logout', [LoginContoller::class, 'logout'])->name('logout');
 
 

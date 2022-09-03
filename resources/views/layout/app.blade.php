@@ -14,6 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/htmltypist.js/dist/typist.js"></script>
     <script src="https://kit.fontawesome.com/e54b3d474c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 
 <body>
@@ -54,9 +55,12 @@
                     <a class="text-decoration-none text-secondary" href="https://instagram.com/bazzree">Instagram</a>
                     <a class="text-decoration-none text-secondary" href="https://twitter.com/bazzree">Twitter</a>
                     <a class="text-decoration-none text-secondary" href="https://github.com/akmalmaulanabasri">Github</a>
-                <h5 class="mt-3 mb-3 text-light">
-                    2022 Akmal Maulana
-                </h5>
+                <div class="d-flex justify-content-between flex-nowrap mt-3 mb-3 ">
+                    <h5 class="text-light">
+                        2022 Akmal Maulana
+                    </h5>
+                    <img src="https://hitwebcounter.com/counter/counter.php?page=8034106&style=0001&nbdigits=5&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="0" />
+                </div>
                 </div>
             
 
