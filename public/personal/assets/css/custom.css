@@ -1,0 +1,127 @@
+.pp{
+    width: 350px;
+    margin: 10px auto;
+    box-shadow: 10px 10px 5px grey;
+}
+
+div{
+    /* border: 1px solid black; */
+}
+
+.desc{
+    width: 650px;
+    margin-top: 45px;
+    align-items: middle;
+}
+
+.poppins{
+    font-family: 'poppins';
+}
+
+.topbar{
+background-color: #FFE9D1;
+}
+
+.sec-1{
+    margin-top: 50px;
+}
+
+.navbar-brand{
+    font-family: 'Concert One', cursive;
+    color: black;
+    font-size: 30px;
+    hover: black;
+}
+
+.separator{
+    margin-top: -140px;
+    margin-bottom: 10px;
+    z-index: -1;
+    position:relative;
+    transform: scaleX(-1);
+    scale: 1;
+    bgc: #FFE9D1;
+}
+
+.separator-bawah{
+    transform: rotate(180deg);
+    margin-bottom: -300px;
+    z-index: -1;
+    position:relative;
+}
+
+.hai{
+    color: yellow;
+}
+
+.sec-tittle{
+    font-size: 50px;
+    color: black;
+    margin-top: -50px;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.bout-me{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.bout-card{
+    padding: 10px;
+    background-color: #FFE9D1;
+    border: 0;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.button-topbar{
+    background-color: #F895A6;
+    color: white;
+}
+
+.school{
+    margin-top: 10px;
+}
+
+.skill{
+    height : 70px;
+    margin : 10px;
+}
+
+.serti{
+    text-align: center;
+}
+
+.link-porto{
+    text-align: center;
+    text-decoration: none;
+}
+
+.text-porto{
+    text-decoration: none;
+}
+
+.btn-demo{
+    background-color: #F895A6;
+    color: white;
+    border: 0;
+    hover: white;
+}
+
+.kirim{
+    margin: 10px;
+}
+
+.footers {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F895A6;
+    color: #fff;
+}
+
+.copyright{
+    text-decoration: none;
+    color: white;
+}
