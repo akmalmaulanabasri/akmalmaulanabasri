@@ -22,57 +22,62 @@ class DatabaseSeeder extends Seeder
         Project::create([
             'judul' => 'School Profile Website (Laravel)',
             'link' => 'https://web-wikrama.akmalweb.my.id/',
-            'gambar' => 'https://ibb.co/VLLyGzN',
+            'gambar' => 'https://i.ibb.co/XWWBPK4/wikrama.png',
             'repo' => 'https://github.com/akmalmaulanabasri/website-smk-wikrama-bogor',
             'featured' => 1
         ]);
         Project::create([
             'judul' => 'Nft Platypusclubs Landing Page',
             'link' => 'https://platypusclubs.xyz',
-            'gambar' => 'https://ibb.co/k8xvLYW',
+            'gambar' => 'https://i.ibb.co/pzx5HC9/platypusclubs.png',
             'repo' => '#',
             'featured' => 1
         ]);
         Project::create(
-        [
-            'judul' => 'Personal Website 01',
-            'link' => 'https://akmalmaulana.my.id/personal',
-            'gambar' => 'https://ibb.co/fYprH0d',
-            'repo' => '#',
-            'featured' => 0
-        ]);
+            [
+                'judul' => 'Personal Website 01',
+                'link' => 'https://akmalmaulana.my.id/personal',
+                'gambar' => 'https://i.ibb.co/zhRPZfV/portfolio1.png',
+                'repo' => '#',
+                'featured' => 0
+            ]
+        );
         Project::create(
-        [
-            'judul' => 'Personal Website 02',
-            'link' => 'https://akmalmaulana.me/',
-            'gambar' => 'https://ibb.co/N1Xf9gh',
-            'repo' => '#',
-            'featured' => 0
-        ]);
+            [
+                'judul' => 'Personal Website 02',
+                'link' => 'https://akmalmaulana.me/',
+                'gambar' => 'https://i.ibb.co/PTRJcsp/portfolio2.png',
+                'repo' => '#',
+                'featured' => 0
+            ]
+        );
         Project::create(
-        [
-            'judul' => 'Personal Website 03',
-            'link' => 'https://akmalmaulana.my.id/',
-            'gambar' => 'https://ibb.co/J5zypWr',
-            'repo' => '#',
-            'featured' => 0
-        ]);
+            [
+                'judul' => 'Personal Website 03',
+                'link' => 'https://akmalmaulana.my.id/',
+                'gambar' => 'https://i.ibb.co/TmHb0DP/portfolio3.png',
+                'repo' => '#',
+                'featured' => 0
+            ]
+        );
         Project::create(
-        [
-            'judul' => 'Gizi Sehat App',
-            'link' => 'https://gizisehat.my.id/',
-            'gambar' => 'https://ibb.co/SwsBv79',
-            'repo' => 'https://github.com/akmalmaulanabasri/gizisehat',
-            'featured' => 1
-        ]);
+            [
+                'judul' => 'Gizi Sehat App',
+                'link' => 'https://gizisehat.my.id/',
+                'gambar' => 'https://i.ibb.co/TMvthqF/gizisehat.png',
+                'repo' => 'https://github.com/akmalmaulanabasri/gizisehat',
+                'featured' => 1
+            ]
+        );
         Project::create(
-        [
-            'judul' => 'Aplikasi Absen Harian',
-            'link' => 'https://akmalmaulana.my.id/tugas/absensi/',
-            'gambar' => 'https://ibb.co/SwsBv79',
-            'repo' => '#',
-            'featured' => 1
-        ]);
+            [
+                'judul' => 'Aplikasi Absen Harian',
+                'link' => 'https://akmalmaulana.my.id/tugas/absensi/',
+                'gambar' => 'https://i.ibb.co/d7z02cf/absensi.png',
+                'repo' => '#',
+                'featured' => 1
+            ]
+        );
 
         User::create([
             'name' => 'Akmal Maulana Basri',
@@ -81,6 +86,6 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('akmal190605'),
             'role' => 'admin'
         ]);
-     
+
     }
 }
