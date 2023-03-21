@@ -1,6 +1,6 @@
 @extends('layout.app')
 @section('content')
-<x-modal-component/>
+    <x-modal-component />
     <div class="container pe-auto ps-auto mt-5">
         <div class="row">
             <div class="col-lg-7 col-sm-12 pt-5 ps-auto home" data-aos="fade-right" data-aos-duration="1500">
@@ -32,82 +32,82 @@
             <div class="col-12 ps-auto">
                 <h2>Experience</h2>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-lg-6">
                         <div class="card mt-2">
                             <div class="card-body">
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h4 class="text-dark">BOGOR INOVATION AWARD 2022</h4>
+                                    <h5 class="text-dark">BOGOR INOVATION AWARD 2022</h5>
                                 </div>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h5 class="text-dark">Bogor, Indonesia</h5>
-                                    <h5 class="text-dark">2022</h5>
+                                    <h6 class="text-dark">Bogor, Indonesia</h6>
+                                    <h6 class="text-dark">2022</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-lg-6">
                         <div class="card mt-2">
                             <div class="card-body">
                                 <div>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <h4 class="text-dark">SMK DIGITAL BOOTCAMP</h4>
+                                        <h5 class="text-dark">SMK DIGITAL BOOTCAMP</h5>
                                         <a href="#" class="ms-3" data-bs-toggle="modal"
                                             data-bs-target="#modalDIBO">View Certificate</a>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <h5 class="text-dark">Bali, Indonesia</h5>
-                                        <h5 class="text-dark">2022</h5>
+                                        <h6 class="text-dark">Bali, Indonesia</h6>
+                                        <h6 class="text-dark">2022</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-lg-6">
                         <div class="card mt-2">
                             <div class="card-body">
                                 <div>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <h4 class="text-dark">COMPTIA CYBERSECURITY TRAINING</h4>
+                                        <h5 class="text-dark">COMPTIA CYBERSECURITY TRAINING</h5>
                                         <a href="#" class="ms-3" data-bs-toggle="modal"
                                             data-bs-target="#modalCYBER">View Certificate</a>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <h5 class="text-dark">Bogor, Indonesia</h5>
-                                        <h5 class="text-dark">2022</h5>
+                                        <h6 class="text-dark">Bogor, Indonesia</h6>
+                                        <h6 class="text-dark">2022</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-lg-6">
                         <div class="card mt-2">
                             <div class="card-body">
                                 <div>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <h4 class="text-dark">PINGFEST BATTLE OF TECHNOLOGY</h4>
+                                        <h5 class="text-dark">PINGFEST BATTLE OF TECHNOLOGY</h5>
                                         <a href="#" class="ms-3" data-bs-toggle="modal"
                                             data-bs-target="#modalBOT">View Certificate</a>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <h5 class="text-dark">Bogor, Indonesia</h5>
-                                        <h5 class="text-dark">2022</h5>
+                                        <h6 class="text-dark">Bogor, Indonesia</h6>
+                                        <h6 class="text-dark">2022</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-lg-6">
                         <div class="card mt-2">
                             <div class="card-body">
                                 <div>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <h4 class="text-dark">GOOGLE DEVELOPER FESTIVAL</h4>
+                                        <h5 class="text-dark">GOOGLE DEVELOPER FESTIVAL</h5>
                                         <a href="#" class="ms-3" data-bs-toggle="modal"
                                             data-bs-target="#modalGDG">View Certificate</a>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <h5 class="text-dark">Bogor, Indonesia</h5>
-                                        <h5 class="text-dark">2022</h5>
+                                        <h6 class="text-dark">Bogor, Indonesia</h6>
+                                        <h6 class="text-dark">2022</h6>
                                     </div>
                                 </div>
                             </div>
@@ -127,8 +127,7 @@
                         <div class="col-lg-6 col-sm-12 mt-3">
                             <div class="card shadow hover." data-aos="fade-in" data-aos-duration="1500">
                                 @if ($item->gambar != null)
-                                    <img src="{{ $item->gambar }}" class="card-img-top post-gambar"
-                                        alt="...">
+                                    <img src="{{ $item->gambar }}" class="card-img-top post-gambar" alt="...">
                                 @else
                                     <img src="https://source.unsplash.com/400x300?{{ $item->gambar }}"
                                         class="card-img-top post-gambar" alt="...">
