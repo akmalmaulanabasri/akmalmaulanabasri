@@ -36,7 +36,7 @@
                         <div class="card mt-2">
                             <div class="card-body">
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h5 class="text-dark">BOGOR INOVATION AWARD 2022</h5>
+                                    <h5 class="text-dark">BOGOR INOVATION AWARD</h5>
                                 </div>
                                 <div class="d-flex align-items-center justify-content-between">
                                     <h6 class="text-dark">Bogor, Indonesia</h6>
@@ -46,13 +46,12 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <div class="card mt-2">
+                        <div class="card mt-2" data-bs-toggle="modal" data-bs-target="#modalDIBO">
                             <div class="card-body">
                                 <div>
                                     <div class="d-flex align-items-center justify-content-between">
                                         <h5 class="text-dark">SMK DIGITAL BOOTCAMP</h5>
-                                        <a href="#" class="ms-3" data-bs-toggle="modal"
-                                            data-bs-target="#modalDIBO">View Certificate</a>
+                                        <a href="#" class="ms-3	d-none d-xl-block" data-bs-toggle="modal" data-bs-target="#modalDIBO">View Certificate</a>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between">
                                         <h6 class="text-dark">Bali, Indonesia</h6>
@@ -63,13 +62,12 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <div class="card mt-2">
+                        <div class="card mt-2" data-bs-toggle="modal" data-bs-target="#modalCYBER">
                             <div class="card-body">
                                 <div>
                                     <div class="d-flex align-items-center justify-content-between">
                                         <h5 class="text-dark">COMPTIA CYBERSECURITY TRAINING</h5>
-                                        <a href="#" class="ms-3" data-bs-toggle="modal"
-                                            data-bs-target="#modalCYBER">View Certificate</a>
+                                        <a href="#" class="ms-3	d-none d-xl-block" data-bs-toggle="modal" data-bs-target="#modalCYBER">View Certificate</a>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between">
                                         <h6 class="text-dark">Bogor, Indonesia</h6>
@@ -80,13 +78,12 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <div class="card mt-2">
+                        <div class="card mt-2" data-bs-toggle="modal" data-bs-target="#modalBOT">
                             <div class="card-body">
                                 <div>
                                     <div class="d-flex align-items-center justify-content-between">
                                         <h5 class="text-dark">PINGFEST BATTLE OF TECHNOLOGY</h5>
-                                        <a href="#" class="ms-3" data-bs-toggle="modal"
-                                            data-bs-target="#modalBOT">View Certificate</a>
+                                        <a href="#" class="ms-3	d-none d-xl-block" data-bs-toggle="modal" data-bs-target="#modalBOT">View Certificate</a>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between">
                                         <h6 class="text-dark">Bogor, Indonesia</h6>
@@ -97,13 +94,12 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <div class="card mt-2">
+                        <div class="card mt-2" data-bs-toggle="modal" data-bs-target="#modalGDG">
                             <div class="card-body">
                                 <div>
                                     <div class="d-flex align-items-center justify-content-between">
                                         <h5 class="text-dark">GOOGLE DEVELOPER FESTIVAL</h5>
-                                        <a href="#" class="ms-3" data-bs-toggle="modal"
-                                            data-bs-target="#modalGDG">View Certificate</a>
+                                        <a href="#" class="ms-3	d-none d-xl-block" data-bs-toggle="modal" data-bs-target="#modalGDG">View Certificate</a>
                                     </div>
                                     <div class="d-flex align-items-center justify-content-between">
                                         <h6 class="text-dark">Bogor, Indonesia</h6>
