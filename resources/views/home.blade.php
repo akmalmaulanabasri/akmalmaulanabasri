@@ -127,7 +127,7 @@
                         <div class="col-lg-6 col-sm-12 mt-3">
                             <div class="card shadow hover." data-aos="fade-in" data-aos-duration="1500">
                                 @if ($item->gambar != null)
-                                    <img src="{{ asset('storage') }}/{{ $item->gambar }}" class="card-img-top post-gambar"
+                                    <img src="{{ $item->gambar }}" class="card-img-top post-gambar"
                                         alt="...">
                                 @else
                                     <img src="https://source.unsplash.com/400x300?{{ $item->gambar }}"

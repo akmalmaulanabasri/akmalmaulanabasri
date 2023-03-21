@@ -22,14 +22,14 @@ class DatabaseSeeder extends Seeder
         Project::create([
             'judul' => 'School Profile Website (Laravel)',
             'link' => 'https://web-wikrama.akmalweb.my.id/',
-            'gambar' => 'post-images/wikrama.png',
+            'gambar' => 'https://ibb.co/VLLyGzN',
             'repo' => 'https://github.com/akmalmaulanabasri/website-smk-wikrama-bogor',
             'featured' => 1
         ]);
         Project::create([
             'judul' => 'Nft Platypusclubs Landing Page',
             'link' => 'https://platypusclubs.xyz',
-            'gambar' => 'post-images/platypusclubs.png',
+            'gambar' => 'https://ibb.co/k8xvLYW',
             'repo' => '#',
             'featured' => 1
         ]);
@@ -37,7 +37,7 @@ class DatabaseSeeder extends Seeder
         [
             'judul' => 'Personal Website 01',
             'link' => 'https://akmalmaulana.my.id/personal',
-            'gambar' => 'post-images/portfolio1.png',
+            'gambar' => 'https://ibb.co/fYprH0d',
             'repo' => '#',
             'featured' => 0
         ]);
@@ -45,7 +45,7 @@ class DatabaseSeeder extends Seeder
         [
             'judul' => 'Personal Website 02',
             'link' => 'https://akmalmaulana.me/',
-            'gambar' => 'post-images/portfolio2.png',
+            'gambar' => 'https://ibb.co/N1Xf9gh',
             'repo' => '#',
             'featured' => 0
         ]);
@@ -53,7 +53,7 @@ class DatabaseSeeder extends Seeder
         [
             'judul' => 'Personal Website 03',
             'link' => 'https://akmalmaulana.my.id/',
-            'gambar' => 'post-images/portfolio3.png',
+            'gambar' => 'https://ibb.co/J5zypWr',
             'repo' => '#',
             'featured' => 0
         ]);
@@ -61,7 +61,7 @@ class DatabaseSeeder extends Seeder
         [
             'judul' => 'Gizi Sehat App',
             'link' => 'https://gizisehat.my.id/',
-            'gambar' => 'post-images/gizisehat.png',
+            'gambar' => 'https://ibb.co/SwsBv79',
             'repo' => 'https://github.com/akmalmaulanabasri/gizisehat',
             'featured' => 1
         ]);
@@ -69,7 +69,7 @@ class DatabaseSeeder extends Seeder
         [
             'judul' => 'Aplikasi Absen Harian',
             'link' => 'https://akmalmaulana.my.id/tugas/absensi/',
-            'gambar' => 'post-images/absensi.png',
+            'gambar' => 'https://ibb.co/SwsBv79',
             'repo' => '#',
             'featured' => 1
         ]);
