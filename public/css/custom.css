@@ -35,7 +35,7 @@
 .home .learn:hover{
     border: 2px solid #CED0CE;
     color: #CED0CE;
-    background-color: #333333;
+    background-color: #263022;
 }
 
 .home .project{
@@ -45,7 +45,7 @@
 .home .project:hover{
     border: 2px solid #CED0CE;
     color: #CED0CE;
-    background-color: #333333;
+    background-color: #263022;
 }
 
 .tech-img{
@@ -74,25 +74,25 @@
 }
 
 .btn-more{
-    background-color: #333333;
+    background-color: #263022;
     color: #CED0CE;
 }
 
 body{
-    background-color: #191919;
+    background-color: #324627;
     color: #CED0CE;
 }
 
 nav{
-    background-color: #333333;
+    background-color: #263022;
 }
 
 .card-title{
-    color: #333333;
+    color: #263022;
 }
 
 .katabijak{
-    background-color: #333333;
+    background-color: #263022;
     color: #CED0CE;
     padding: 3px;
     padding-right: 5px;
@@ -100,7 +100,7 @@ nav{
 }
 
 .card-login{
-    background-color: #333333;
+    background-color: #263022;
 
 }
 
@@ -109,13 +109,13 @@ nav{
 }
 
 .dropdown-home{
-    background-color: #333333;
-    color: #333333;
+    background-color: #263022;
+    color: #263022;
 }
 
 .dropdown-home .dropdown-item{
-    background-color: #333333;
-    color: #333333;
+    background-color: #263022;
+    color: #263022;
 }
 
 .post-gambar{

@@ -17,38 +17,39 @@ class DashboardController extends Controller
     public function showcase()
     {
         $data = Project::all();
-        return view('dashboard.showcase' , compact('data'));
+        return view('dashboard.showcase', compact('data'));
     }
 
-    public function tambah(){
+    public function tambah()
+    {
         return view('dashboard.tambah-project');
     }
 
     public function simpan(Request $request)
     {
 
-       $validatedData = $request->validate([
+        $validatedData = $request->validate([
             'judul' => 'required',
             'gambar' => 'image|file|max:2048',
             'link' => 'required',
             'repo' => 'required',
             'featured' => 'required',
         ]);
-        
-        if($request->file('gambar')){
+
+        if ($request->file('gambar')) {
             $validatedData['gambar'] = $request->file('gambar')->store('post-images');
         }
-        
+
         Project::create($validatedData);
         return redirect()->route('showcase-project');
     }
-    
+
     public function edit($id)
     {
         $data = Project::find($id);
-        return view('dashboard.edit-project' , compact('data'));
+        return view('dashboard.edit-project', compact('data'));
     }
-    
+
     public function editProject(Request $request)
     {
 
@@ -60,12 +61,12 @@ class DashboardController extends Controller
             'repo' => 'required',
             'featured' => 'required',
         ]);
-        
-        if(isset($request->hapusGambar) && $request->hapusGambar == 'on'){
+
+        if (isset($request->hapusGambar) && $request->hapusGambar == 'on') {
             $validatedData['gambar'] = null;
         }
 
-        if($request->file('gambar')){
+        if ($request->file('gambar')) {
             $validatedData['gambar'] = $request->file('gambar')->store('post-images');
         }
 
@@ -79,7 +80,8 @@ class DashboardController extends Controller
         return redirect()->route('showcase-project');
     }
 
-    public function user(){
+    public function user()
+    {
         $user = User::all()->sortBy('id');
         return view('dashboard.daftar-user', compact('user'));
     }

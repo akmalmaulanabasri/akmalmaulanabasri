@@ -81,14 +81,6 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('akmal190605'),
             'role' => 'admin'
         ]);
-
-        for($i = 0; $i < 19; $i++){
-            User::create([
-                'name' => Str::random(10),
-                'email' => Str::random(10).'@gmail.com',
-                'username' => Str::random(10),
-                'password' => Hash::make('password'),
-            ]);
-        }
+     
     }
 }

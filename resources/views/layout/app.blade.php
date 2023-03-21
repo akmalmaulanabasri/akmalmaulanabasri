@@ -59,7 +59,6 @@
                     <h5 class="text-light">
                         2022 Akmal Maulana
                     </h5>
-                    <img src="https://hitwebcounter.com/counter/counter.php?page=8034106&style=0001&nbdigits=5&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="0" />
                 </div>
                 </div>
             
