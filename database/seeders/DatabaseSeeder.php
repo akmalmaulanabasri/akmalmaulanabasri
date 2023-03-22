@@ -66,7 +66,7 @@ class DatabaseSeeder extends Seeder
                 'link' => 'https://gizisehat.my.id/',
                 'gambar' => 'https://i.ibb.co/TMvthqF/gizisehat.png',
                 'repo' => 'https://github.com/akmalmaulanabasri/gizisehat',
-                'featured' => 1
+                'featured' => 0
             ]
         );
         Project::create(
@@ -74,6 +74,15 @@ class DatabaseSeeder extends Seeder
                 'judul' => 'Aplikasi Absen Harian',
                 'link' => 'https://akmalmaulana.my.id/tugas/absensi/',
                 'gambar' => 'https://i.ibb.co/d7z02cf/absensi.png',
+                'repo' => '#',
+                'featured' => 0
+            ]
+        );
+        Project::create(
+            [
+                'judul' => 'PPLG HOSTING',
+                'link' => 'https://pplgwikrama.my.id',
+                'gambar' => 'https://i.ibb.co/z59TDkL/download.png',
                 'repo' => '#',
                 'featured' => 1
             ]
