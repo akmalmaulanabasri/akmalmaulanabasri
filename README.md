@@ -8,14 +8,6 @@
   />
 </p>
 
-<p align="left">
-  <a
-    ><img
-      src="https://github-profile-trophy.vercel.app/?username=akmalmaulanabasri"
-      alt="akmalmaulanabasri"
-  /></a>
-</p>
-
 <h3 align="left">Languages and Tools:</h3>
 <p style="display: flex">
   <a
@@ -224,18 +216,6 @@
 >
   <img
     src="https://github-readme-stats.vercel.app/api/top-langs?username=akmalmaulanabasri&show_icons=true&locale=en&layout=compact"
-    alt="akmalmaulanabasri"
-    style="height: 200px; display: inline-block; white-space: normal;"
-  />
-
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=akmalmaulanabasri&show_icons=true&locale=en"
-    alt="akmalmaulanabasri"
-    style="height: 200px; display: inline-block; white-space: normal;"
-  />
-
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=akmalmaulanabasri&"
     alt="akmalmaulanabasri"
     style="height: 200px; display: inline-block; white-space: normal;"
   />
